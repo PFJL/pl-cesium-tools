@@ -1,0 +1,25 @@
+{
+  "name": "pl-cesium-tools",
+  "version": "0.0.1",
+  "description": "cesium",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cesium": "^1.120.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}
